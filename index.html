@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title></title>
+		<title>我爱我宝</title>
 	</head>
 	<body>
 		<canvas id="c"></canvas>
@@ -62,7 +62,7 @@
 						span = document.createElement('span');
 					span.textContent = coreSocialistValues[index];
 					index = (index + 1) % coreSocialistValues.length;
-					span.style.cssText = ['z-index: 9999999; position: absolute; font-weight: bold; color: ', randomColor(), '; top: ', y - 20, 'px; left: ', x, 'px;'].join('');
+					span.style.cssText = ['font-size: 24px; z-index: 9999999; position: absolute; font-weight: bold; color: ', randomColor(), '; top: ', y - 20, 'px; left: ', x, 'px;'].join('');
 					document.body.appendChild(span);
 					animate(span);
 				});
